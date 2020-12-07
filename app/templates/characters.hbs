@@ -1,0 +1,10 @@
+{{#each @model as |character|}}
+  <section>
+    <h2>{{character.name}}</h2>
+    <img src="" alt="">
+    <em>{{character.species}}</em>
+    Type: <strong>{{character.type}}</strong>
+    Status: <strong>{{character.status}}</strong>
+    <em>{{character.gender}}</em>
+  </section>
+{{/each}}
