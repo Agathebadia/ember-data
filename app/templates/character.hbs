@@ -1,7 +1,7 @@
 {{#each @model as |character|}}
   <section>
     <h2>{{character.name}}</h2>
-    <img src="" alt="">
+    <img src="{{character.image}}" alt="Character photo">
     <em>{{character.species}}</em> - <em>{{character.gender}}</em> -
     Status: <strong>{{character.status}}</strong>
   </section>
